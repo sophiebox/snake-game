@@ -82,6 +82,8 @@ const addFood = () => {
 
 const gameOver = () => {
     gameOverSign.style.display = 'block';
+    gameOverSign.style.textAlign = 'center';
+    gameOverSign.style.margin = '0 auto';
     clearInterval(moveInterval)
     startButton.disabled = false;
 }

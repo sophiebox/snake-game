@@ -1,9 +1,20 @@
 * {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ECE4DC;
+    color: #535231;
+}
+
+#title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
 }
 
 #board, .boardInfo {
     max-width: 500px;
+    margin: 0 auto;
 }
 
 #board {
@@ -12,11 +23,13 @@
 }
 
 #start, .boardInfo {
-    font-size: 25px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 #gameOver {
     display: none;
+    margin: 0 auto;
 }
 
 .boardInfo {
@@ -26,7 +39,7 @@
 }
 
 #start {
-    background-color: #f35a69;
+    background-color: #D8968F;
     border: none;
     color: white;
 }
@@ -40,14 +53,13 @@
 }
 
 .emptySquare {
-    background-color: #456990;
+    background-color: #726759;
 }
 
 .snakeSquare {
-    background-color: #ccf47f;
+    background-color: #CAD19F;
 }
 
 .foodSquare {
-    background-color: #f35a69;
-    border: 1px solid #000;
+    background-color: #FFDBE0;
 }
